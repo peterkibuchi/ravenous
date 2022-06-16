@@ -5,8 +5,9 @@ import Business from "../Business/Business";
 
 export default function BusinessList({ businesses }) {
   const renderBusinesses = () => {
+    if (businesses.length === 0) return <p>Couldn't find any businesses :(.</p>;
     return businesses.map(business => {
-      return <Business business={business} />;
+      return <Business key={business.id} business={business} />;
     });
   }
 
