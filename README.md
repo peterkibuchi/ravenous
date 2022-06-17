@@ -1,38 +1,55 @@
-# Project Name <--- CHANGE THIS!
-> Outline a brief description of your project.
-> Live demo [_here_](https://peterkibuchi.github.io/.../).
+# Ravenous
+> A Yelp-like clone that leverages the Yelp API to allow users to browse restaurants and other businesses in a given location.
+> Live demo [_here_](https://peterkibuchi.github.io/ravenous/).
+
+__Disclaimer:__ The app is currently unable to fetch results due to CORS restrictions. 
+
+We can bypass this restriction with an API called CORS Anywhere. CORS Anywhere takes requests sent to its API endpoint and configures them with the proper CORS permissions.
+
+In order to use the app, open a new tab in your browser, visit https://cors-anywhere.herokuapp.com/corsdemo, and click “Request temporary access to the demo server.” _Voila_! You can now fetch results.
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
+* [Features](#features)
 * [Project Status](#project-status)
-* [Acknowledgements](#acknowledgements)
+* [Room for Improvement](#room-for-improvement)
 * [Contact](#contact)
+<!-- * [License](#license) -->
 
 
 ## General Information
-- Provide general information about your project here.
-- What is the purpose of your project? Why did you undertake it?
-- What problem does it (intend to) solve?
-- What did you learn from it?
+- Ravenous is powered by the Yelp API.
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- React
+
+
+## Features
+- Users can search for restaurants and view a list of restaurants returned by the Yelp API
+- Users can sort through restaurants using a filter
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _complete_.
 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+## Room for Improvement
+Room for improvement:
+- Improve the styling
+- Clicking on a different sorting option automatically requeries the Yelp API, rather than having to manually click “Let’s Go” again
+- Allow one to search by pressing “Enter” (or “Return”) on your keyboard, as opposed to manually clicking
+
+To do:
+- Make images clickable and have them open the business’ website in a new tab
+- Make addresses clickable and have them open the address in Google Maps in a new tab
+- Add autocompletion of addresses to the “Location” input
 
 
 ## Contact
 Created by [Peter Kibuchi](https://www.peterkibuchi.com/).
+
+
+<!-- ## License -->
+<!-- This project is open source and available under the [... License](). -->
